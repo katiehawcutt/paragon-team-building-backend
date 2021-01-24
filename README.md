@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# Team Building Platform featuring bespoke Facts! game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Team Paragon - School of Code Final Project
 
-## Available Scripts
+##### December 2020 - January 2021 (4 week project)
 
-In the project directory, you can run:
+## Our Brief
 
-### `npm start`
+"To improve the remote team building experience at the School of Code"
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Current challenges with remote team building
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+-   Getting to know people on a personal level remotely
+-   Lack of non-work social interactions
+-   Having down time with colleagues during the bootcamp
 
-### `npm test`
+## Our Solution
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+After conducting user research and reflecting on our own experiences, we
+chose to solve the problem by creating a bespoke game (Facts!) which helps people to get to know each other and work together more effectively. Alongside this we created a platform designed specifically for the School of Code which contains team member profiles and an activities library which encourages bootcampers to spend time building rapport in a non-work context. These two services allow team members to learn more about each other, work together and share a positive experience, which will ultimately result in more effective teamwork.
 
-### `npm run build`
+## Project details
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+A React front-end interacts in real-time with backend components using websockets. In-game persistence was achieved using AWS DynamoDB, with authentication and authorisation handled by AWS Cognito.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Draw.io was used to construct the initial wireframes and logical flow of both the game and platform, before creating high fidelity prototypes with Figma. Storybook allowed us to visually test each component in isolation during development.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Built in just four weeks by a fully remote team, we managed our workflow using Jira and implemented Agile methodology using a Scrumban framework with weekly
+sprints, daily stand up’s and retros, and regular client reviews.
 
-### `npm run eject`
+Both the platform and game are fully responsive and have been designed for both desktop and mobile.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Mobile Views
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Platform mobile views](./Assets/platform-mobile-view.PNG)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![Facts mobile views](./Assets/facts-mobile-view.PNG)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Tech stack:
 
-## Learn More
+HTML5, CSS3, JavaScript, React, Node.js, Websockets, AWS DynamoDB, AWS Cognito, Storybook, Material UI, Jest, React Testing Library, Figma, Jira, Confluence. Cloud hosted using Heroku and Netlify.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### For more information and about this project and how we built it [please view our product presentation and demo here](https://youtu.be/0dfBA3KpZv8).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Team Building Platform
 
-### Code Splitting
+### Home page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Platform homepage view](./Assets/platform-home-desktop.PNG)
 
-### Analyzing the Bundle Size
+### Team Building page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![Platform teambuilding page desktop view](./Assets/platform-teambuilding-desktop.PNG)
 
-### Making a Progressive Web App
+### Bootcamper Profiles page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![Platform profile page view](./Assets/platform-profiles-desktop.PNG)
 
-### Advanced Configuration
+## Facts! game
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Facts! Landing page
 
-### Deployment
+![Facts! game landing page view](./Assets/Facts1.PNG)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Facts! Game Lobby page
 
-### `npm run build` fails to minify
+![Facts! game lobby page view](./Assets/Facts2.PNG)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Facts! Whose Fact Reveal Countdown page
+
+![Facts! game whose fact reveal countdown view](./Assets/Facts4.PNG)
+
+### Facts! Which Fact Is True? page
+
+![Facts! game which fact page view](./Assets/Facts5.PNG)
