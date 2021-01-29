@@ -1,3 +1,5 @@
+//logging websocket events
+
 const socketEventHandlers = {
     error(err) {
         console.error(err)
@@ -10,6 +12,7 @@ const socketEventHandlers = {
     },
 }
 
+// turning the object into an array of [key, value] pairs
 module.exports.registerSocketEventHandlers = (socket) => {
     Object.entries(socketEventHandlers).forEach(([event, handler]) => {
         socket.on(event, (...args) => {

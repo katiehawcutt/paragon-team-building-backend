@@ -1,3 +1,5 @@
+// creates a broadcast function for each socket
+
 const { OPEN: READY_STATE_OPEN } = require('ws')
 
 /**

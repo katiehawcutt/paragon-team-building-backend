@@ -1,3 +1,5 @@
+// names of actions
+
 module.exports = {
     /**
      * Server sends this to client when an error has occurred.

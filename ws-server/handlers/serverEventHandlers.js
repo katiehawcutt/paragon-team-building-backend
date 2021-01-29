@@ -1,3 +1,5 @@
+//logging server events
+
 const {
     WEBSOCKET_SERVER_OPTIONS: { port: PORT },
 } = require('../../config/websocket')

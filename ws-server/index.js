@@ -1,3 +1,5 @@
+//setting up websocket server
+
 const { Server: WebSocketServer } = require('ws')
 
 const { WEBSOCKET_SERVER_OPTIONS } = require('../config/websocket')
